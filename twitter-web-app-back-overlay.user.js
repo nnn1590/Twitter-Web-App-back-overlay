@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  umm...
 // @author       NNN1590
-// @license      GPLv3
+// @license      GPL-3.0-or-later
 // @match        https://twitter.com/* https://m.twitter.com/* https://mobile.twitter.com/*
 // @grant        none
 // @noframes
