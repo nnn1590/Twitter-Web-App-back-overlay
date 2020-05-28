@@ -32,7 +32,7 @@
     background: #33b5e580;
     height: 10%;
     float: left;
-    width: 425px;
+    width: 68px;
     z-index: 114514;
     position: fixed;
     margin-left: auto;
