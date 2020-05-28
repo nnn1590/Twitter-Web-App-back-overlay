@@ -5,7 +5,9 @@
 // @description  umm...
 // @author       NNN1590
 // @license      GPL-3.0-or-later
-// @match        https://twitter.com/* https://m.twitter.com/* https://mobile.twitter.com/*
+// @match        https://twitter.com/*
+// @match        https://m.twitter.com/*
+// @match        https://mobile.twitter.com/*
 // @grant        none
 // @noframes
 // ==/UserScript==
@@ -25,6 +27,19 @@
     margin-left: auto;
     right: 0;
     background-attachment: fixed;
-"><!--<a href="javascript:window.history.back(-1)" style="width: 100%;height:100%;display:inline-block;">back</a>--></div>`); // onclick="javascript:window.history.back(-1);return false;"
+"><!--<a href="javascript:window.history.back(-1)" style="width: 100%;height:100%;display:inline-block;">back</a>--></div>
+<div id="nnn1590overlay2" style="
+    background: #33b5e580;
+    height: 10%;
+    float: left;
+    width: 425px;
+    z-index: 114514;
+    position: fixed;
+    margin-left: auto;
+    left: 0;
+    bottom: 0;
+    background-attachment: fixed;
+"></div>`); // onclick="javascript:window.history.back(-1);return false;"
     document.querySelector('#nnn1590overlay').addEventListener('click', function(){window.history.back(-1);return false;});
+    document.querySelector('#nnn1590overlay2').addEventListener('click', function(){window.history.back(-1);return false;});
 })();
