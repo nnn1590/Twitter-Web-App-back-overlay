@@ -17,15 +17,17 @@
     document.querySelector("body").insertAdjacentHTML('beforebegin', `
 <div id="nnn1590overlay" style="
     background: #33b5e580;
-    height: 100%;
+    height: 585px;
+    margin-top: 16px;
     float: right;
-    width: 425px;
+    width: 434px;
     z-index: 114514;
     /* position: relative; */
     /* position: sticky; */
     position: fixed;
     margin-left: auto;
     right: 0;
+    bottom: 0;
     background-attachment: fixed;
 "><!--<a href="javascript:window.history.back(-1)" style="width: 100%;height:100%;display:inline-block;">back</a>--></div>
 <div id="nnn1590overlay2" style="
