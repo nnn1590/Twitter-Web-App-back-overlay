@@ -32,7 +32,7 @@
 "><!--<a href="javascript:window.history.back(-1)" style="width: 100%;height:100%;display:inline-block;">back</a>--></div>
 <div id="nnn1590overlay2" style="
     background: #33b5e580;
-    height: 10%;
+    height: 100%;
     float: left;
     width: 68px;
     z-index: 114514;
