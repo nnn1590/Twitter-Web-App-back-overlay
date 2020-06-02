@@ -16,7 +16,7 @@
     'use strict';
     document.querySelector("body").insertAdjacentHTML('beforebegin', `
 <div id="nnn1590overlay" style="
-    background: #33b5e580;
+    background: #80808080;
     height: 585px;
     margin-top: 16px;
     float: right;
@@ -31,7 +31,7 @@
     background-attachment: fixed;
 "><!--<a href="javascript:window.history.back(-1)" style="width: 100%;height:100%;display:inline-block;">back</a>--></div>
 <div id="nnn1590overlay2" style="
-    background: #33b5e580;
+    background: #80808080;
     height: 100%;
     float: left;
     width: 68px;
